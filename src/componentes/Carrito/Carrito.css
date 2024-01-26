@@ -51,11 +51,11 @@
 
   @media (max-width: 768px) {
     .ItemCarritoItem {
-      flex-direction: column; /* Cambiamos a columna en dispositivos pequeños */
+      flex-direction: column; 
     }
   
     .ItemCarritoTexto {
-      width: 100%; /* Aseguramos que ocupe el 100% del ancho en dispositivos pequeños */
+      width: 100%; 
       text-align: center; 
     }
     .ItemCarritoBoton1{
