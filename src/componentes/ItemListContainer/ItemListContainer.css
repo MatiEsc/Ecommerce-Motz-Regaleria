@@ -1,0 +1,16 @@
+.principal .saludo{
+
+    font-size: 30px;
+    justify-content: center;
+    text-decoration: underline;
+    color:black;
+    display: flex;
+}
+
+.cargando{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

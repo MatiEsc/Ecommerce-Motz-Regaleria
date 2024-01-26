@@ -1,0 +1,73 @@
+
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  bottom: 0;
+}
+
+.navegacion {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.navegacion li {
+  margin-bottom: 8px; /
+}
+
+.navegacion a {
+  text-decoration: none; 
+  color: #333; 
+}
+
+
+.footer-columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1; 
+}
+
+.footer-division {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+  
+
+
+.copyright-section {
+  text-align: center;
+  font-size: 14px;
+}
+ 
+
+.tarjetas {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tarjetas img {
+  max-width: 60px; 
+  width: 100%; 
+}
+
+
+.iconos-redes {
+  display: flex;
+  gap: 15px;
+}
+
+.iconos-redes a {
+  color: #333; 
+  font-size: 30px; 
+}
+
+  

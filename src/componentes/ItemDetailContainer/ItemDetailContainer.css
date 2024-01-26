@@ -1,0 +1,27 @@
+.item-list-container {
+    padding: 0 20px;
+    
+  }
+  
+  .item-list-container .saludo {
+    font-size: 25px;
+  }
+  
+  .cargando{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titulo{
+    text-decoration: none;
+    color: black;
+  }
+
+  .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

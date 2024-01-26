@@ -1,0 +1,65 @@
+.ItemCarrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 10%;
+  }
+  
+  .ItemCarritoItem {
+    height: 55%;
+    width: auto;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+  }
+  
+  .ItemCarritoImagen {
+    max-width: 80%;
+    border-radius: 10px ;
+    padding: 30px;
+  }
+  
+  .ItemCarritoTexto {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ItemCarritoNombre {
+    font-weight: bold;
+  }
+  
+  .ItemCarritoBoton, .ItemCarritoBoton1 {
+    width: fit-content;
+    text-decoration: none;
+    border-style: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5a524;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ItemCarritoBoton:hover, .ItemCarritoBoton1:hover {
+    background-color: #e5941a;
+  }
+  
+
+  @media (max-width: 768px) {
+    .ItemCarritoItem {
+      flex-direction: column; /* Cambiamos a columna en dispositivos pequeños */
+    }
+  
+    .ItemCarritoTexto {
+      width: 100%; /* Aseguramos que ocupe el 100% del ancho en dispositivos pequeños */
+      text-align: center; 
+    }
+    .ItemCarritoBoton1{
+      margin-left: 200px;
+      text-align: center;
+    }
+  }
