@@ -7,6 +7,7 @@ El sistema de checkout recopila la información esencial del usuario para comple
 
 Toda la información generada por los usuarios, ya sea a través de compras, consultas o datos de contacto, se almacena de manera segura en una base de datos, asegurando un seguimiento eficiente y una gestión integral de la plataforma.
 
+Este proyecto obtuvo una calificación de 10 en el curso de ReactJs
 
 ## Instalación
 
