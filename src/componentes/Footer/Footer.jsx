@@ -54,11 +54,9 @@ const Footer = () => {
         </p>
         <address>
           <FaMapMarkerAlt />
-          Dirección: Siempre viva 742, Springfield, (EE. UU.)
         </address>
         <p>
           <FaPhone />
-          Teléfono: +123 456 789
         </p>
 
       </section>
